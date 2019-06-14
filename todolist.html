@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>今天要做点什么</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="header">
+    <form action="" id="addList">
+        <label for="add" id="title">今天要做点什么?</label>
+        <input type="text" id="add" placeholder="添加要做的事">
+    </form>
+</div>
+<div class="content">
+    <form action="" id="handle">
+        <div id="todo">
+            <h3>要做的事情<span id="todoCount"></span></h3>
+            <ol id="todoList"></ol>
+        </div>
+        <div id="done">
+            <h3>完成的事情<span id="doneCount"></span></h3>
+            <ol id="doneList"></ol>
+        </div>
+    </form>
+    <div id="clearAll">
+        <input type="image" src="images/垃圾桶.png" id="clearAllBtn" value="清除" onclick="removeData(0,true);return false;">
+    </div>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body, ol, li, p, input {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#header {
+    height: 55px;
+    background-color: #06D995;
+    position: relative;
+}
+
+#title {
+    font: 25px/55px "Microsoft Yahei";
+    color: #fff;
+    margin-left: 150px;
+}
+
+#add {
+    position: absolute;
+    right: 200px;
+    top: 12.5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    background-color: #F2F4F8;
+    margin-top: 20px;
+    padding: 20px auto;
+    float: left;
+    position: relative;
+}
+
+#todo, #done {
+    background-color: #fff;
+    float: left;
+    margin: 10px 15px;
+    padding-left: 20px;
+    width: 550px;
+
+}
+
+#todo > h3 {
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFEDE7;
+    color: #F76333;
+}
+
+#done > h3 {
+    height: 40px;
+    line-height: 40px;
+    background-color: #EEFFDD;
+    color: #89C557;
+}
+
+#clearAll > input {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+#newLi {
+    height: 32px;
+    border-left: 1px dashed #D6F4FE;
+    border-top: 1px dashed #D6F4FE;
+    border-right: 1px dashed #D6F4FE;
+    margin-right: 2px;
+    position: relative;
+}
+
+.done {
+    background-color: #CDCDCD;
+    opacity: 0.5;
+}
+
+#todo > ol {
+    border-bottom: 1px dashed #D6F4FE;
+
+}
+
+#newLi > p {
+    line-height: 32px;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+
+#newLi > a > img {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox {
+    margin: 5px 5px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}

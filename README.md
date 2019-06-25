@@ -29,4 +29,4 @@
 
 ## 三、使用demo
 
-![Image text](https://gitee.com/nicholas0707/todolist/raw/master/%E4%BD%BF%E7%94%A8demo.gif)
+![Image text](https://raw.githubusercontent.com/nicholas0707/todolist/master/%E4%BD%BF%E7%94%A8demo.gif)
